@@ -1,0 +1,82 @@
+.hidden {
+    display: none;
+}
+
+body {
+    font-size: 16px;
+    background-color: #fff;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: row;
+}
+.icon-container div {
+    width: 50%;
+}
+
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+img, embed, object, video, picture {
+    max-width: 100%;
+}
+
+p, h1, h2, h3, h4, h5 {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+
+input, textarea {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+section h2, section h3, section p {
+    padding-left: 15px;
+}
+
+.spacer {
+    margin-top: 60px;
+}
+
+.txt-spacer {
+    margin-top: 30px;
+}
+
+
+html {
+  box-sizing: border-box; 
+}
+
+*, *::before, *::after {
+  box-sizing: inherit; 
+}
+/* ---Utility Classes--- */
+
+.hidden {
+   display: none;
+}
+
+.box {
+   background-color: powderblue;
+   color: rgb(27, 27, 27);
+   border-radius: 5px;
+   padding: 20px;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom:10px;
+ }
