@@ -1,19 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<svg viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024;" xml:space="preserve" id="apple" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024;" xml:space="preserve" id="appleflavour" version="1.1" xmlns="http://www.w3.org/2000/svg">
 
 <defs>
 <style>
-    #apple{
+    #appleflavour{
         transition: all 0.5s ease;
         transform: origin center;
     }
 
-    #apple:hover #body-color {
+    #appleflavour:hover #body-color {
         fill: white;
     }
 </style>
 </defs>
+
+<script>
+const appleflavour = document.querySelector("#appleflavour");
+
+
+function logId(){
+    console.log(this.id)
+}
+
+
+//Event Listeners
+appleflavour.addEventListener("click", logId)
+
+</script>
+
 
 
 <path id="body-color" d="M359.612 287.101c-67.154 7.126-118.967 74.586-139.36 115.568-94.098 189.508 149.126 490.461 237.423 470.383 13.471-3.058 27.419-14.276 58.214-17.177 42.772-4.034 65.714 12.996 91.548 15.975 56.243 6.492 107.115-55.994 142.759-99.762 40.201-49.366 157.161-192.987 112.667-346.601-7.229-24.926-25.641-88.545-85.577-123.419-3.875-2.266-74.722-42.181-141.23-17.233-25.142 9.427-34.478 22.524-65.714 27.193-28.801 4.306-49.648-2.266-72.514-7.93-37.038-9.087-101.382-20.903-138.217-16.995z" fill="#FA1919" />

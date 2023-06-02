@@ -1,18 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<svg viewBox="0 -121.5 1267 1267" style="enable-background:new 0 -121.5 1267 1267;" xml:space="preserve" id="banana"  version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 -121.5 1267 1267" style="enable-background:new 0 -121.5 1267 1267;" xml:space="preserve" id="bananaflavour"  version="1.1" xmlns="http://www.w3.org/2000/svg">
 
 <defs>
 <style>
-    #banana{
+    #bananaflavour{
         transition: all 0.5s ease;
         transform: origin center;
     }
 
-    #banana:hover {
+    #bananaflavour:hover {
         background-color: yellow;
     }
 </style>
+
+<script>
+const bananaflavour = document.querySelector("#bananaflavour");
+
+
+function logId(){
+    console.log(this.id)
+}
+
+
+//Event Listeners
+bananaflavour.addEventListener("click", logId)
+
+</script>
 </defs>
 
 
