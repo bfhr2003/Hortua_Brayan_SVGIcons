@@ -1,19 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<svg viewBox="-3.84 0 50.114 50.114" style="enable-background:new -3.84 0 50.114 50.114;" xml:space="preserve" id="cherry" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="-3.84 0 50.114 50.114" style="enable-background:new -3.84 0 50.114 50.114;" xml:space="preserve" id="cherryflavour" xmlns="http://www.w3.org/2000/svg">
 
 <defs>
 <style>
-    #cherry{
+    #cherryflavour{
         transition: all 0.5s ease;
         transform: origin center;
     }
 
-    #cherry:hover {
+    #cherryflavour:hover {
           filter: grayscale(100%) sepia(100%);
         
     }
 </style>
+
+<script>
+const cherryflavour = document.querySelector("#cherryflavour");
+
+
+function logId(){
+    console.log(this.id)
+}
+
+
+//Event Listeners
+cherryflavour.addEventListener("click", logId)
+
+</script>
 </defs>
 
 

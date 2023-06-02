@@ -1,20 +1,35 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
-<svg version="1.1" id="watermelon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 306.816 306.816" style="enable-background:new 0 0 306.816 306.816;" xml:space="preserve">
+<svg version="1.1" id="watermelonflavour" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 306.816 306.816" style="enable-background:new 0 0 306.816 306.816;" xml:space="preserve">
 
 <defs>
 <style>
-    #watermelon{
+    #watermelonflavour{
         transition: all 0.5s ease;
         transform: origin center;
     }
 
-    #watermelon:hover {
+    #watermelonflavour:hover {
 		transform: rotate(180deg);
     }
 
 </style>
 </defs>
+
+<script>
+const watermelonflavour = document.querySelector("#watermelonflavour");
+
+
+function logId(){
+    console.log(this.id)
+}
+
+
+//Event Listeners
+watermelonflavour.addEventListener("click", logId)
+
+
+</script>
 
 <g>
 	<path style="fill:#D7143A;" d="M302.421,183.341c-1.243-1.244-2.656-2.207-4.157-2.922c-0.728-1.523-1.697-2.934-2.913-4.148
